@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<div id="time1"><time>00:00</time></div>
+		<input id="btnStart" type="button" value="Start" onclick="toggleTimer(event, timer1)" />
+		<div class="myProgress1">
+			<div id="myBar1"></div>
+		</div>
+		<div id="time2"><time>00:00</time></div>
+		<input id="btnStop" type="button" value="Stop" onclick="toggleTimer(event, timer2)" />
+		<div class="myProgress2">
+			<div id="myBar2"></div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+
+</html>
